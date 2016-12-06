@@ -140,12 +140,19 @@
         menu on small screens -->
         <div class="collapse navbar-collapse navbar-ex1-collapse">
             <ul class="nav navbar-nav side-nav">
+
                 <li>
                     <a href="{{url('/admin')}}"><i class="fa fa-fw fa-dashboard"></i> Dashboard</a>
                 </li>
+
+
                 <li>
-                    <a href="{{url('/admin/users')}}"><i class="fa fa-fw fa-users"></i> Users</a>
+                    <a href="{{url('/admin/users')}}"><i class="fa fa-fw fa-users"></i> All Users<span class="fa arrow"></span></a>
+
                 </li>
+
+
+
                 <li>
                     <a href="charts.html"><i class="fa fa-fw fa-bar-chart-o"></i> Charts</a>
                 </li>
